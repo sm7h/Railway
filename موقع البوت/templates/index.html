@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <nav>
+    <a href="{{ url_for('main') }}">Main</a> |
+    <a href="{{ url_for('settings') }}">Settings</a> |
+    <a href="{{ url_for('login') }}">Logout</a>
+  </nav>
+  <p>Welcome to your dashboard!</p>
+</body>
+</html>
